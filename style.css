@@ -325,7 +325,6 @@ body{
   padding: 0 13px;
   border: 1px solid #e6e6e6;
   outline: none;
-  border-radius: 5px 0 0 5px;
 }
 .typing-area button{
   color: #fff;
@@ -337,8 +336,13 @@ body{
   cursor: pointer;
   opacity: 0.7;
   pointer-events: none;
-  border-radius: 0 5px 5px 0;
   transition: all 0.3s ease;
+}
+.typing-area .btn__file{
+  border-radius: 5px 0 0 5px;
+}
+.typing-area .btn__send{
+  border-radius: 0 5px 5px 0;
 }
 .typing-area button.active{
   opacity: 1;
